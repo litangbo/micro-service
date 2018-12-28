@@ -1,0 +1,14 @@
+package com.jc.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MicroServiceRegistryApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MicroServiceRegistryApplication.class, args);
+    }
+
+}
+
